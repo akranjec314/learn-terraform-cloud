@@ -1,12 +1,13 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "AKTest"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
+/*
 
   required_providers {
     aws = {
